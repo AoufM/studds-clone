@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,800&family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  --main-color: #283526;
+  --primary-color: #888888;
+  --button-background: #4b709e;
+  --primary-button-background: #fe7649;
+  --background-color: #eef2f7;
+}
+
+h1,
+h2 {
+  font-family: Avenir LT Std;
+}
+
+h4 h3 {
+  font-family: muli;
+}
+h3{
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+
+.main1{
+    height: 160vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+.sec-1{
+    /* background: rgb(152,150,156);
+    background: linear-gradient(180deg, rgb(152, 150, 156 ,1) 30%, rgba(176,176,181,1) 55%, rgba(227,230,232,0.9753151260504201) 98%); */
+    display: flex;
+    height: 100%;
+    width: 86%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+   
+}
+.div-1{
+    /* border: 2px solid red; */
+    width: 42%;
+    position: relative;
+}
+.div-2{
+    /* border: 2px solid red; */
+    background-color: rgb(223, 83, 83);
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    height:85% ;
+}
+
+.div-3{
+    /* border: 2px solid red; */
+    width: 42%;
+    position: relative;
+}
+.sec-1 nav ul{
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.sec-1 nav ul:hover{
+  cursor: pointer;
+}
+.sec-1 nav ul li:hover{
+    color:rgb(223, 83, 83) ;
+}
+
+/* ----------------------------div 1 css--------------------------- */
+
+.logo-text{
+    display: flex;
+    /* border:2px solid black; */
+    /* margin-left: 4rem; */
+    margin-top: 25%;
+    /* height: 10vh; */
+    width: 60%;
+}
+.logo-text img{
+    width: 25%;
+    mix-blend-mode: color-burn;
+}
+.logo-text p{
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+.intro{
+    /* border: 2px solid blue; */
+    width: 70%;
+    /* margin-left: 4rem; */
+    margin-top: 1rem;
+}
+.intro p{
+    color: darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.intro h1{
+    font-size: 5.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro button{
+    border: 2px solid red ;
+    border-radius: 2rem;
+    padding: 0.8rem 3rem;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    background-color: rgba(176,176,181,1);
+}
+.welcome{
+    /* border: 2px solid black; */
+    /* height: 40vh; */
+    margin-left: 3%;
+    margin-top: 23%;
+    /* margin-bottom: 5rem; */
+    width: 90%;
+    text-align: start;
+}
+.welcome h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.welcome p{
+    /* padding: 1rem; */
+    font-size: 1.5rem;
+    width: auto;
+}
+.button-2{
+    border: 2px solid red ;
+    border-radius: 2rem;
+    padding: 0.8rem 3rem;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    background-color: rgba(176,176,181,1);
+}
+.div-1 button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+#ltd{
+    font-size: 2.8rem;
+    color: #424141;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.hr1{
+    border-bottom: 1px solid darkred;
+    width: 35%;
+    margin-bottom: 1rem;
+}
+.stone1{
+    position: absolute;
+    width: 40%;
+    top:86%;
+    left: 45%;
+
+}
+.stone2{
+    position: absolute;
+    width: 35%;
+    top: 82%;
+    left: 22%;
+}
+
+/* -------------------------div 2 css----------------------------- */
+
+.div-2 h1{
+    font-size: 3.2rem;
+    color: white;
+    font-style: italic;
+}
+.div-2{
+    position: relative;
+}
+.div-2 img{
+   position: absolute;
+}
+.div-2 .main-helmet{
+    width: 140%;
+    top: 18rem;
+    filter: drop-shadow(0 -6mm 4mm rgb(66, 64,64));
+}
+
+.div-2 .main-biker{
+    width: 350%;
+    top:55rem;
+    filter: drop-shadow(0 10mm 3mm rgb(66, 64,64));
+}
+
+
+
+/* --------------------------div 3 css---------------------------- */
+.helmet-right{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 49%;
+    margin-left: 35%;
+
+}
+.helmet-right i{
+    padding-top:7rem ;
+    font-size: 3rem;
+}
+
+.helmet-right i:hover{
+    color: red;
+}
+
+.helmet-right img{
+    width: 70%;
+}
+.metro{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 37%;
+}
+
+
+.shareDesign{
+    /* border: 2px solid black; */
+    /* height: 20%; */
+    margin-left: 3.8%;
+    width: 90%;
+    margin-top: 25%;
+    text-align: end;
+    /* margin-bottom: 6rem; */
+}
+.shareDesign h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#des{
+    font-size: 2.8rem;
+    color: #424141;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.hr2{
+    border-bottom: 1px solid darkred;
+    width: 35%;
+    margin-bottom: 1rem;
+    margin-left: 64%;
+}
+.shareDesign p{
+    font-size: 1.5rem;
+}
+.shareDesign .button-3{
+    border: 2px solid red ;
+    border-radius: 2rem;
+    padding: 0.8rem 3rem;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    background-color: rgba(176,176,181,1);
+}
+.shareDesign .button-3:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.stone3{
+    position: absolute;
+   width: 35%;
+   top: 86%;
+   left: 10%;
+}
+.stone4{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+   width: 25%;
+}
+
+
+/* -----------------------main 2 starts------------------------ */
+
+.main2{
+    height: 160vh;
+    width: 100%;
+    /* border: 4px solid black; */
+    margin: 2rem 0;
+}
+.main2-sec1{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    height: 70%;
+}
+.main2-sec2{
+    height:30% ;
+    border: 2px solid darkblue;
+}
+
+
+/* ---------------------------main 2 sec-1 starts-------------------------- */
+
+.main2-sec1{
+    background-color: beige;
+}
+.main2-sec1 .texts{
+    /* border: 2px solid black; */
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    padding: 1rem;
+}
+.advertise{
+    display: flex;
+}
+.advertise i{
+    font-size: 5rem;
+    margin-top: 7rem;
+    color: darkred;
+}
+.advertise i:hover{
+    color: #424141;
+}
+.main2-sec1 .texts h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.lorem{
+    padding-top: 3rem;
+    font-size: 1.6rem;
+}
+.hr4{
+    border-right: 1px solid red;
+    margin: 0 1.5rem;
+}
+.main2-sec1 p{
+    font-size: 1.8rem;
+    color: red;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.table-helmet{
+    width: 74%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    height: 52%;
+}
+.main2-sec1 img{
+    position: relative;
+}
+.table{
+    width: 96%;
+    top: 12rem;
+    left: 1.5rem;
+}
+.gloves{
+    width: 20%;
+    left: 4rem;
+    bottom: 3rem;
+}
+.front-helmet{
+    width: 25%;
+    bottom: 6rem;
+}
+.side-helmet{
+    width: 25%;
+    bottom: 6rem;
+}
+.goggles{
+    width: 20%;
+    bottom: 4rem;
+}
+
+
+/* ---------------------main-2 sec-2 starts--------------------------------- */
+
+.main2-sec2{
+    display: flex;
+}
+.main2-sec2 img{
+    width: 19%;
+}
+#middleImg{
+    width: 24%;
+    border: 15px solid red;
+}
+
+
+/* -----------------------footer css--------------------------- */
+
+.lastfooter{
+    /* border: 2px solid red; */
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #3a3a3a 50%, #000000 100%);
+
+    height: 30rem;
+    width: auto;
+    margin: 10rem auto 0 auto;
+}
+
+.lastfooter ul li:hover{
+    color:darkred ;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: bold;
+}
+
+.ekdumlast{
+    /* border: 2px solid red; */
+    height: 30rem;
+    width: 115rem;
+    margin: auto;
+}
+.srffooter{
+    display: flex;
+
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.footer1{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 30rem;
+    /* margin-top: 5rem; */
+    padding-top: 5rem;
+}
+
+.footer1 b{
+    color: rgb(213, 17, 17);
+}
+.footer2{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer2 h1{
+    color: #e7e7e7;
+}
+
+.footer3{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+.footer3 h1{
+    color: #e7e7e7;
+}
+
+.footer4{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer4 h1{
+    color: #e7e7e7;
+}
+
+.footer5{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+.footer5 h1{
+    color: #e7e7e7;
+}
+
+.footer6{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 30rem;
+}
+
+
+
+.footer1 b{
+    font-size: 30px;
+    /* padding-top: 2rem; */
+    color: rgb(213, 17, 17)red;
+}
+
+.footer1 p{
+    font-size: 18px;
+    margin-top: 2rem;
+}
+.icons{
+    color: #e7e7e7;
+    /* margin-left: 20px; */
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlist li{
+    font-size: 15px;
+    padding-top: 1rem;
+}
+
+.footer2 h1{
+    font-size: 17px;
+}
+
+.footer3 h1{
+    font-size: 17px;
+}
+
+.footer4 h1{
+    font-size: 17px;
+}
+.footer5 h1{
+    font-size: 17px;
+}
+
+.footerimg{
+    width: 100%;
+    height: 90%;
+    /* padding-top: 3rem; */
+    margin-top: 1rem;
+}
+
+.footerhr{
+    color: blue;
+    margin-top: -2rem;
+}
+
+.footerhrr{
+    margin-top:-0.5px;
+}
